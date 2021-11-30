@@ -1,0 +1,104 @@
+.header-text-box{
+    position:absolute;
+    top: 35%;
+    width:100%;
+    /* text-align: center; */
+}
+.header-div{
+    height:100vh;
+    background-color:rgb(73, 73, 122);
+    /* z-index: -10!important; */
+}
+.header-text{
+    text-align:center;
+    color: white;
+    font-size: 20px;
+}
+.brand-icon-design{
+  
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 43%;
+    margin-top: 25px;
+    /* z-index: 1; */
+}
+@media only screen and (max-width: 750px) {
+    .brand-icon-design{
+        width:50%!important;
+        /* margin-top: 25px; */
+        right: 25%!important;
+        /* left:50%; */
+    }
+  }
+@media only screen and (max-width: 1250px) {
+    .brand-icon-design{
+        width:25%;
+        margin-top: 25px;
+        right: 37%;
+        /* left:50%; */
+    }
+  }
+.brand-icon{
+    font-size: 2.4rem;
+    margin-right: 35px;
+    /* z-index: 2; */
+}
+#tsparticles{
+    height: 100vh;
+    /* z-index: -5; */
+}
+
+.arrow-icon{
+    font-size: 16px;
+    transition:.3s;
+}
+.header-box-text{
+    cursor:pointer;
+    transition:.3s;
+    font-size: 16px;
+    width: 190px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+@media only screen and (max-width: 1085px) {
+    .brand-icon-design{
+        margin-top: 100px!important;
+        /* left:50%; */
+    }
+  }
+@media only screen and (max-width: 1085px) {
+    .brand-icon-design{
+        margin-top: 130px!important;
+        width: 60%!important;
+        /* left:50%; */
+    }
+  }
+ .header-box-text:hover{
+    background-color:#252934 ;
+    border-color:#252934;
+    text-decoration: none;
+}
+.header-text-box  .header-box-text:hover .arrow-icon{
+   
+    transform: rotate(90deg)
+}
+.work-text:hover{
+    text-decoration: none;
+}
+.brand-icon-fb{
+   color: rgb(8, 30, 129);
+}
+.brand-icon-insta{
+    color: rgb(216, 78, 35);
+}
+.brand-icon-git{
+    color:#2a303f;
+}
+.brand-icon-in{
+    color:rgb(70, 148, 236);
+}

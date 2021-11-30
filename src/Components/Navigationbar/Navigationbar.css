@@ -1,0 +1,38 @@
+.navigation-design{
+    background-color: #252934;
+    /* position: relative; */
+    /* z-index: 1; */
+    color: white;
+    /* position:sticky ; */
+}
+
+.nav-item>.active-class{
+    background-color: #3e424d;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.all-nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-button-text{
+    position: absolute;
+    bottom:-30px;
+    display: none;
+    left:0px;
+    width: 100px;
+    font-size: 12px;
+    
+}
+.resume-icon:hover .resume-button-text{
+    display: inline-block;
+    transition: .3s;
+    /* bottom: 0; */
+
+}
